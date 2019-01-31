@@ -1,5 +1,6 @@
 # JavaScript 
 **Notes for learning JavaScript** 
+
 **Author: Virgil (Jianghao Zhu)**  
 
 ---
