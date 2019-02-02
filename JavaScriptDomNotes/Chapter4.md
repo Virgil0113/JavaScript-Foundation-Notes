@@ -18,6 +18,8 @@ JavaScript 语句与英语中的句子相似：
 
 ​         `first statement; second statement`
 
+---
+
 ### 注释
 
 有多种方式可以在 JavaScript 脚本中插入注释。两个斜线作为一行的开始，这一行就会被当作成一条注释：
@@ -34,7 +36,9 @@ JavaScript 语句与英语中的句子相似：
 
 ​            `<!--这是 HTML 中的注释`-->
 
-###  变量          
+---
+
+ 变量          
 
 把值存入变量的操作成为赋值（assignment）。在 JavaScript 中可以这样给变量赋值：
 
@@ -60,7 +64,9 @@ JavaScript 语法不允许变量名中包含空格或标点符号（美元符号
 
 ​            `var myMood = "happy";`
 
-#### 数据类型
+---
+
+### 数据类型
 
 #### 字符串
 
@@ -82,4 +88,58 @@ JavaScript 语法不允许变量名中包含空格或标点符号（美元符号
 
 #### 布尔值
 
-布尔数据
+布尔数据只有两个可选值——true 或 false。布尔值不是字符串，不能把布尔值用引号括起来。
+
+​            `var married = true;`
+
+---
+
+### 数组
+
+数组是指用一个变量表示一个值的集合，集合中的每个值都是这个数组的一个元素。在 JavaScript 中，数组可以用关键字 Array 声明。声明数组的同时还以指定数组初始元素的个数，也就是数组的长度（length）。
+
+​             `var beatles = Array(4);`
+
+下面是声明和填充 beatles 数组的全过程：
+
+​             `var beatles = Array(4);`
+
+​             `beatles[0] = "John";`
+
+​             `beatles[1] = "Paul";`
+
+​             `beatles[2] = "George";`
+
+​             `beatle[3] = "Ringo";`
+
+#### 关联数组
+
+可以通过在填充数组时为每个新元素明确的给出下标来改变这种默认行为。在位新元素给出下标时，不必局限于整数数字，可以用字符串：
+
+​              `var lennon = Array();`
+
+​              `lennon["name"] = "John";`
+
+​              `lennon["year"] = 1940;`
+
+​              `lennon["living"] = false;`
+
+---
+
+### 对象
+
+与数组类似，对象也是可以使用一个名字表示一组值。对象的每个值都是对象的一个属性。例如前一节的 lennon 数组也可以创建下面的对象：
+
+​               `var lennon = Object();`
+
+​               `lennon.name = "John";`
+
+​               `lennon.year = 1940;`
+
+​               `lennon.living = false;`
+
+创建对象还有一种更简洁的语法，即花括号语法：
+
+​               `varlennon = {name:"John", year:1940, living:false};`
+
+用对象来代替传统数组的做法意味着可以通过元素的名字而不是下表数字来引用它们。
