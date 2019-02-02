@@ -7,7 +7,7 @@
 
 ## Part 1 JavaScript DOM 
 
-Process (8/12) Using Book <JavaScript DOM 编程艺术>
+Process (2/12) Using Book <JavaScript DOM 编程艺术>
 
 ### 第一部分 JavaScript 简史
 
