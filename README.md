@@ -18,7 +18,7 @@ Process (2/12) Using Book <JavaScript DOM 编程艺术>
 ### 第二部分 JavaScript 语法
 
 - [Chapter 4 -- 基础语法](JavaScriptDomNotes/Chapter4.md)
-- Chapter 5 -- 条件语句
+- [Chapter 5 -- 条件语句](JavaScriptDomNotes/Chapter5.md)
 - Chapter 6 -- 循环语句
 - Chapter 7 -- 函数
 - Chapter 8 -- 对象
