@@ -14,5 +14,14 @@ JavaScript 提供了许多几乎只能用在条件语句里的操作符，其中
 
 ​           `if (my_mood == your_mood){`
 
-​                alert("we both feel the same.")`}`
+​                `alert("we both feel the same.")}`
 
+JavaScript 还提供了一个用来进行“不等于”比较的操作符，它由一个感叹号和一个等号构成（!=）。
+
+​           `if (my_mood != your mood){`
+
+​               `alert ("we're feeling different moods.");`
+
+​           `}`
+
+相等操作符==并不表示严格相等，要进行严格比较，就要使用另外一种等号（===）。这个全等操作符执行严格的比较。如果相比较严格不相等就要使用 !==。
