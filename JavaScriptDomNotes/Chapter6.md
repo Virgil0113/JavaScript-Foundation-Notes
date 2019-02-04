@@ -33,3 +33,28 @@ while 循环与 if 语句唯一的区别是： 只要给定条件的求值结果
 ​               `}   while (count < 1);`
 
 上面的 do 循环里，循环控制条件的求值结果永远不会为 true: 变量 count 的初始值是1，所以它在这里永远不会小于1。但是因为 do 循环的控制条件出现在花括号部分之后，所以包含在这个 do 循环内部的代码还是执行了一次。变量 count 的值将是2，尽管循环控制条件的求值结果是 false。
+
+---
+
+### for 循环
+
+for 循环类似与 while 循环，事实上它只是刚才介绍的 while 循环的一种变体。
+
+​               `for (initial condition; test condition; alert condition) {` 
+
+​                    `statements;`
+
+​                `}`
+
+用 for 循环来重复执行一些代码循控制结构将更加清新，与循环有关的所有内容都包含在 for 语句的圆括号部分。
+
+可以把以上的 while 循环的例子改写为 for 循环：
+
+​                `for (var count = 1; count < 11; count++) {`
+
+​                      `alert (count);`
+
+​                `}`
+
+for 循环最常见的用途之一是对某个数组里的全体元素进行遍历处理，这往往还需要用到数组的 `array.length` 属性。
+
