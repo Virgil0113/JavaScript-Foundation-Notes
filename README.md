@@ -21,7 +21,7 @@ Process (2/12) Using Book <JavaScript DOM 编程艺术>
 - [Chapter 5 -- 条件语句](JavaScriptDomNotes/Chapter5.md)
 - [Chapter 6 -- 循环语句](JavaScriptDomNotes/Chapter6.md)
 - [Chapter 7 -- 函数](JavaScriptDomNotes/Chapter7.md)
-- Chapter 8 -- 对象
+- [Chapter 8 -- 对象](JavaScriptDomNotes/Chapter8.md)
 
 ### 第三部分 DOM
 
