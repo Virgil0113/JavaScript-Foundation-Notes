@@ -1,6 +1,6 @@
 ## JavaScript DOM 编程艺术 Chapter 3 制定标准
 
-在浏览器制造商以 DOM 为武器展开营销大战的同时，W3C （万维网联盟）不事声张的结合了各自的有点推出了一个标准化的 DOM. 令人欣慰的是 Netscape、微软和其他一些浏览器制造商们还能抛开彼此的敌意与 W3C 共同制定新的标准。回到[以上的例子](JavaScriptDomNotes/Chapter2.md)，使用新的标准化 DOM 时需要用都的语法是：
+在浏览器制造商以 DOM 为武器展开营销大战的同时，W3C （万维网联盟）不事声张的结合了各自的有点推出了一个标准化的 DOM. 令人欣慰的是 Netscape、微软和其他一些浏览器制造商们还能抛开彼此的敌意与 W3C 共同制定新的标准。回到[以上的例子](Chapter2.md)，使用新的标准化 DOM 时需要用都的语法是：
 
 ​           `document.getElementById('myelement')`
 
