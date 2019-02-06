@@ -7,7 +7,7 @@
 
 ## Part 1 JavaScript DOM 
 
-Process (2/12) Using Book <JavaScript DOM 编程艺术>
+Process (3/12) Using Book <JavaScript DOM 编程艺术>
 
 ### 第一部分 JavaScript 简史
 
@@ -25,7 +25,7 @@ Process (2/12) Using Book <JavaScript DOM 编程艺术>
 
 ### 第三部分 DOM
 
-- Chapter 9 -- DOM 的定义
+- [Chapter 9 -- DOM 的定义](JavaScriptDomNotes/Chapter9.md)
 - Chapter 10 -- 节点
 - Chapter 11 -- 获取和设置属性
 
