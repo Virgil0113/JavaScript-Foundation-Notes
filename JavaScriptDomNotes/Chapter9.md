@@ -28,7 +28,7 @@ JavaScript 语言里的对象可以分为三种类型：
 
 DOM 中的 “M” 代表着 模型（Model），也可以说它代表着 “Map”。DOM 代表着加载到浏览器窗口的当前网页，浏览器提供了网页的地图，而我们可以通过 JavaScript 去读取这张地图。DOM 把一份文档表示为一棵树（“树“为数学意义上的概念），这是我们理解和运用这一模型的关键。更具体说 DOM 把文档表示为一颗家谱树。家谱树本身又是一种模型，并使用 parent (父)、child（子）、sibling（兄）等记号来表示家族成员之间的关系。
 
-家谱树模型非常适合用来表示一份用 (X)HTML 语言编写出来的文档——[code](JavaScriptDomCode/Demo1/demo1.html)
+家谱树模型非常适合用来表示一份用 (X)HTML 语言编写出来的文档——[code](https://github.com/Virgil0113/JavaScript-Foundation-Notes/blob/master/JavaScriptDomCode/Demo1/demo1.html)
 
 我们可以分析一下这个网页的结构，DOCTYPE 之后，一个打开了的`<html>`标签标识整个文档的开始，这个页面里的所有元素都包含在这个元素里，这表示它至少是一个父亲（parent）。又因为没有其他的元素都包含在其内部，所以这个`<html>`标签既没有父亲也没有兄弟。如果这是一颗真正的树，这个`<html>`标签就是树根。
 
