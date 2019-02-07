@@ -26,7 +26,7 @@ Process (3/12) Using Book <JavaScript DOM 编程艺术>
 ### 第三部分 DOM
 
 - [Chapter 9 -- DOM 的定义](JavaScriptDomNotes/Chapter9.md)
-- Chapter 10 -- 节点
+- [Chapter 10 -- 节点](JavaScriptDomNotes/Chapter10.md)
 - Chapter 11 -- 获取和设置属性
 
 ### 第四部分 案例研究：JavaScript 图片库
