@@ -24,3 +24,10 @@ DOM 的原子是元素节点。在描述上一章的[“购物清单”](https:/
 
 ---
 
+### 属性节点
+
+属性节点用来对元素做出更具体的描述。例如，几乎所有的元素都有一个 title 属性，我们利用这个属性对包含在元素里的东西做出准确的描述：
+
+​               `<p title="a gentle reminder">Don't forget to buy this stuff.</p>`
+
+在 DOM 中，title="a gentle reminder"是一个属性节点（attribute node）。因为属性节点总是被放在起始标签里，所以属性节点总是被包含在元素节点中。并非所有的元素都包含属性，但是所有的属性都被包含在元素中。
