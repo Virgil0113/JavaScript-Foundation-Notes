@@ -60,5 +60,21 @@ DOM 并不是与网络结构打交道的唯一技术，我们还可以通过 CSS
 
 继承是 CSS 技术中的一项强大的功能。类似于 DOM，CSS 也把文档的内容视为一棵节点数。节点树上的各个元素将继承其父元素的样式属性。
 
+在某这些场合，当把样式应用于一份文档时，我们其实只想让那些样式作用于某个特定的元素。为了把某些一个或几个元素与其他元素区别开来，需要是使用 class 属性或 id 属性。
+
 #### Class 属性
+
+可以在所有的元素上任意应用 class 属性：
+
+​                  `<p class="special">This paragraph has the special class</p>`
+
+​                  `<h2 class="special">So does this headline</h2>`
+
+ 在样式表里，可以为 class 属性值相同的所有元素定义同一中样式：
+
+​                  `.special {`
+
+​                     `font-style: italic;`
+
+​                  `}`
 
