@@ -31,3 +31,34 @@ DOM 的原子是元素节点。在描述上一章的[“购物清单”](https:/
 ​               `<p title="a gentle reminder">Don't forget to buy this stuff.</p>`
 
 在 DOM 中，title="a gentle reminder"是一个属性节点（attribute node）。因为属性节点总是被放在起始标签里，所以属性节点总是被包含在元素节点中。并非所有的元素都包含属性，但是所有的属性都被包含在元素中。
+
+---
+
+### CSS 
+
+DOM 并不是与网络结构打交道的唯一技术，我们还可以通过 CSS (层叠样式) 告诉浏览器应该如何显示一份文档的内容。
+
+类似 JavaScript 脚本，对样式的声明既可以嵌在文档的 `<head>`部分(`<style>`标签之间)，也可以放在另外一个样式表文件里。 CSS 声明元素样式的语法与 JavaScript 函数的定义语法很相似：
+
+​               `selector{`
+
+​                    `property: value;`
+
+​               `}`
+
+在样式声明里我们可以定义浏览器在显示元素时使用的颜色、字体和字号：
+
+​                `p {`
+
+​                     `color: yellow;`
+
+​                     `font-family: "arial", sans-serif;`
+
+​                     `font-size: 1.2em;`
+
+​                `}`
+
+继承是 CSS 技术中的一项强大的功能。类似于 DOM，CSS 也把文档的内容视为一棵节点数。节点树上的各个元素将继承其父元素的样式属性。
+
+#### Class 属性
+
