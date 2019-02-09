@@ -31,6 +31,11 @@ Process (3/12) Using Book <JavaScript DOM 编程艺术>
 
 ### 第四部分 案例研究：JavaScript 图片库
 
+- Chapter12 -- 标记
+- Chapter13 -- JavaScript
+- Chapter14 -- 应用 this JavaScript 函数
+- Chapter15 -- 函数扩展
+
 ### 第五部分 最佳实践
 
 ### 第六部分 案例研究：图片库改进
