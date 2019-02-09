@@ -134,3 +134,19 @@ getElementByTagName允许把一个通配符作为参数，这意味着文档里�
 
 ​                       `var items = shopping.getElementByTagName("*");`
 
+#### getElementByClassName
+
+HTML5 DOM 新增了一个方法——getElementByClassName。这个方法让我们能够通过 class 属性中的类名词来访问元素。与 getElementByTagName 方法类似，getElementByClassName 也只接受一个参数，就是类名：
+
+​                          `getElementByClassName(class)`
+
+这个方法的的返回值也与 getElementByTagName 类似，都是一个具有相同类名的元素数组。例如，下面这行代码返回的就是一个数组，其中包含类名为“sale”的所有元素：
+
+​                           `document.getElementByClassName("sale")`
+
+与 getElementByTagName 一样，也可以组合使用 getElementByClassName 和 getElementById。例如，想知道在 id 为 “purchase” 的元素中有多少类名包含 ”sale“ 列表项：
+
+​                           `var shopping = document.getElementById("purchase");`
+
+​                           `var sales = shopping.getElementByClassName("sale");`
+
