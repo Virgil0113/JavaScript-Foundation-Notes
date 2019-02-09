@@ -120,3 +120,11 @@ getElementByTagName 方法返回一个对象数组，每个对象分别对应着
 
 ​                      `element.getElementByTagName(tag)`
 
+这个调用将返回一个对象数组，每个对象分别对应着 document 对象中的一个列表项元素。与其他任何数组一样，可以利用 length 属性查出这个数组里的元素个数。
+
+​                      `element.getElementByTagName(tag).length`
+
+getElementByTagName允许把一个通配符作为参数，这意味着文档里的每个元素都将在这个函数所返回的数组里占有一席之地。通配符（星号字符“*”）必须放在引号里，这是为了让通配符与乘法操作符有所区别。可以使用通配符获得某份文档所有的元素节点：
+
+​                       `alert(document.getElementByTagName("*").length);`
+
