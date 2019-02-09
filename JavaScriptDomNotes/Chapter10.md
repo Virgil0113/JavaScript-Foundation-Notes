@@ -104,3 +104,19 @@ id 属性的用途是给网页里的某个元素加上一个独一无二的标�
 
 ### 获取元素
 
+有三种 DOM 方法可获取元素节点，分别是通过元素 ID、通过标签名字和通过类名字来获取。
+
+#### getElementById
+
+DOM 提供了一个名为 getElementById 的方法，这个方法将返回一个与给定的 id 属性值的元素节点对应的对象。它是 document 对象特有的函数。在脚本代码里函数后面必须跟有一对圆括号，这对圆括号包含着函数的参数。getElementById 方法只有一个参数：想要获得的那个元素的 id 属性值。
+
+​                     `document.getElementById(id)`
+
+这个调用将返回一个对象，这个对象对应着 document 对象里的一个独一无二的元素。
+
+#### getElementByTagName
+
+getElementByTagName 方法返回一个对象数组，每个对象分别对应着文档里有着给定标签的一个元素。这个方法也是只有一个参数的函数，它的参数是标签名字：
+
+​                      `element.getElementByTagName(tag)`
+
