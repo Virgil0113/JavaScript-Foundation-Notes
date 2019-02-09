@@ -128,3 +128,9 @@ getElementByTagName允许把一个通配符作为参数，这意味着文档里�
 
 ​                       `alert(document.getElementByTagName("*").length);`
 
+还可以把 getElmentById 与 getElementByTagName 结合起来使用。例如，想要知道 id 属性值是 purchase 的元素包含着多少个列表项：
+
+​                       `var shopping = document.getElementById("purchase");`
+
+​                       `var items = shopping.getElementByTagName("*");`
+
