@@ -26,6 +26,8 @@ getAttribute 是一个函数。它只有一个参数——打算查询的属性�
 
 回到之前[“购物清单”](https://github.com/Virgil0113/JavaScript-Foundation-Notes/blob/master/JavaScriptDomCode/Demo1/demo1.html)的例子，文件里只有一个 `<p>`元素，并且它有 title 属性。 假如这份文档有更多个 `<p>`元素，并且它们没有 title 属性，则 `getAttribute(“title”)`方法就会返回 null 值。
 
+---
+
 ### setAttribute      
 
 getAttribute 方法可以用来获取信息，setAttribute 允许对属性节点的值做出修改。与 getAttribute 一样，setAttribute 也只能用于元素节点：
