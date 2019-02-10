@@ -6,5 +6,5 @@
 
 为了完成 JavaScript 图片库，首先我选择了几张照片并把它们修整成浏览器最适合的尺寸——400像素宽 x 300像素高。
 
-第一项工作是为这些图片创建一个链接清单。我打算用无序清单元素（`<ul>`）来排列这些图片，如果图片事前已经排序号也可以使用有序清单元素（`<ol>`）。下面是标记清单
+第一项工作是为这些图片创建一个链接清单。我打算用无序清单元素（`<ul>`）来排列这些图片，如果图片事前已经排序号也可以使用有序清单元素（`<ol>`）。--[标记清单](https://github.com/Virgil0113/JavaScript-Foundation-Notes/blob/master/JavaScriptDomCode/Demo3/image%20list.html)
 
