@@ -6,3 +6,7 @@ showPic 函数写完了，接下来就要在图片库文档里使用它。把这
 
 ​                                  `<script type="text/javascript" src="scripts.showPic.js"></script> `
 
+这样在图片库文档里就可以使用 showPic 函数了。如果就此打住，那么函数 showPic 永远也不会被调用。我们还需要给图片列表的链接添加行为，也就是事件处理函数，才能达成目标。
+
+### 事件处理函数
+
