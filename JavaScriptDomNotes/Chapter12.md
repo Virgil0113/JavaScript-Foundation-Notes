@@ -23,3 +23,4 @@
 
 ​                  `<img id="placeholder" src="images/placeholder.gif" alt="my image gallery" />`
 
+对这个图片的 id 属性进行设置是为了通过一个外部样式表对图片的显示位置和显示效果加以控制。接下来的工作就是编写 JavaScript 代码。
