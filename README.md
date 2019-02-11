@@ -32,7 +32,7 @@ Process (4/12) Using Book <JavaScript DOM 编程艺术>
 ### 第四部分 案例研究：JavaScript 图片库
 
 - [Chapter12 -- 标记](JavaScriptDomNotes/Chapter12.md)
-- Chapter13 -- JavaScript
+- [Chapter13 -- JavaScript](JavaScriptDomNotes/Chapter13.md)
 - Chapter14 -- 应用 this JavaScript 函数
 - Chapter15 -- 函数扩展
 
