@@ -6,5 +6,11 @@
 
 为了完成 JavaScript 图片库，首先我选择了几张照片并把它们修整成浏览器最适合的尺寸——400像素宽 x 300像素高。
 
-第一项工作是为这些图片创建一个链接清单。我打算用无序清单元素（`<ul>`）来排列这些图片，如果图片事前已经排序号也可以使用有序清单元素（`<ol>`）。--[标记清单](https://github.com/Virgil0113/JavaScript-Foundation-Notes/blob/master/JavaScriptDomCode/Demo3/image%20list.html)
+第一项工作是为这些图片创建一个链接清单。我打算用无序清单元素（`<ul>`）来排列这些图片，如果图片事前已经排序号也可以使用有序清单元素（`<ol>`）。--[标记清单](https://github.com/Virgil0113/JavaScript-Foundation-Notes/blob/master/JavaScriptDomCode/Demo3/gallery.html)
 
+把这些标记保存到 gallery.html 文件中，并把图片集中存放在目录 images 里。在 gallery.html 文件里，无序清单元素中的每个链接分别指向不同的图片。在浏览器窗口中点击某个链接就会跳转到相应的图片。但它的默认效果并不完美，一下是可以进行改进的地方：
+
+- 当点击某个链接时，能留在这个网页而不是转到另一个窗口。
+- 当点击某个链接时，在这个网页上能同时看到那张图片以及原有的图片清单。
+
+为实现
