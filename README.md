@@ -33,7 +33,7 @@ Process (4/12) Using Book <JavaScript DOM 编程艺术>
 
 - [Chapter12 -- 标记](JavaScriptDomNotes/Chapter12.md)
 - [Chapter13 -- JavaScript](JavaScriptDomNotes/Chapter13.md)
-- Chapter14 -- 应用 this JavaScript 函数
+- [Chapter14 -- 应用 this JavaScript 函数](JavaScriptDomNotes/Chapter14.md)
 - Chapter15 -- 函数扩展
 
 ### 第五部分 最佳实践
