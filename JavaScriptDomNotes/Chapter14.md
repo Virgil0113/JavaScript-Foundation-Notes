@@ -22,4 +22,17 @@ showPic() 函数需要一个参数：一个带有 href 属性的元素节点参�
 
 然而，如果仅仅把事件处理函数放到图片列表的一个链接中，会遇到一个问题：点击这个链接时，不仅 showPic 函数被调用，链接被点击的默认行为也会被调用。这意味着用户还是会被带到图片查看窗口，而我们需要阻止这个默认行为被调用。
 
-进一步了解事处理函数的工作机制，在给某个元素添加了事件处理函数之后，一旦事件发生，相应的 JavaScript 代码就会得到执行并返回一个值，这个值将被传递给那个事件处理函数。例如，给某个链接添加一个 onclick 事件处理函数，让这个事件处理函数所触发的 JavaScript 代码回返回布尔值 true 或 false。
+进一步了解事处理函数的工作机制，在给某个元素添加了事件处理函数之后，一旦事件发生，相应的 JavaScript 代码就会得到执行并返回一个值，这个值将被传递给那个事件处理函数。例如，给某个链接添加一个 onclick 事件处理函数，让这个事件处理函数所触发的 JavaScript 代码回返回布尔值 true 或 false。这样一来如果返回值是 true，onclick 事件处理函数就认为”这个链接被点击了“；反之，如果返回值是 false，onclick 事件处理函数就认为”这个链接没有被点击“。这样在 onclick 事件处理函数所触发的 JavaScript  代码里增加一条 return false 语句，就可以防止用户被带到目标链接窗口：
+
+​                                    `onclick = "showPic(this); return false;"`
+
+下面是最终完成的 onclick 事件处理函数在图片库 HTML 文档里的样子：
+
+​                                    `<li>`
+
+​                                             `<a href="images/fireworks.jpg" onclick="showPic(this); return false;"`                                                                          
+
+​                                               `title="A fireworks diaplay">Fireworks</a>`
+
+​                                    `</li>`
+
