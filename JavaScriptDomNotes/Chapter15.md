@@ -22,16 +22,19 @@
 
 添加一个小函数到 showPic.js 文件里将弹出一个 alert 对话框，显示 body 元素的子元素的总个数：
 
-​                                  `function countBodyChildren() {`
+​                                  function countBodyChildren() {
 
-​                                        `var body_element = document.getElementByTagName("body")[0];`
+​                                        var body_element = document.getElementByTagName("body")[0];
 
-​                                        `alert(body_element.childNodes.length);`
+​                                        alert(body_element.childNodes.length);
 
-​                                  `}`
+​                                  }
 
 如果想让这个函数在页面加载时执行，需要使用 onload 函数，所需要添加的到代码段末尾的语句为：
 
 ​                                   `window.onload = countBodyChildren;`
 
-更新后的 showPic.js 文件为——code
+更新后的 showPic.js 文件为——[code](https://github.com/Virgil0113/JavaScript-Foundation-Notes/blob/master/JavaScriptDomCode/Demo5/scripts/showPic.js)
+
+---
+
