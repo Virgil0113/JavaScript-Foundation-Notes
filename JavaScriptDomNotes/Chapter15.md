@@ -60,3 +60,27 @@
 
 ---
 
+### 用 JavaScript 改变描述
+
+原先的 showPic 函数为：
+
+​                                  `function showPic(whichpic) {`
+
+​                                       `var source = whichpic.getAttribute("href");`
+
+​                                       `var placeholder = document.getElementById("placeholder");`
+
+​                                       `placeholder.setAttribute("src",source);`
+
+​                                 `}`
+
+首先需要在 showPic 函数里增加一条语句来获取 whichpic 对象的 title 属性值。把这个值存入 text 变量：
+
+​                                  `var text = whichpic.getAttribute("title");`
+
+接下来，为了能方便引用 id 为 description 的文本段落，新建一个变量来存放它：
+
+​                                  `var description = document.getElementById("description");`
+
+---
+
