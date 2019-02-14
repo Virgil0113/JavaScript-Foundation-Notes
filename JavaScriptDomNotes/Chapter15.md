@@ -132,7 +132,6 @@ DOM 还提供了一个与之对应的 lastChild 属性，这代表着 childNodes
 - 得到 id 是 “description” 的 `<p>`元素，并把它保存到变量 description 里。
 - 把 description 对象的第一个子节点的 nodeValue 属性值设置为变量 text 的值。
 
-把改进后的 showPic() 函数存入 showPic.js 文件，然后在浏览器里刷新 gallery.html 就可以看到扩展的功能了。现在点击网页上的某个图片链接时，将可以看到两种效果：“占位符”图片被替换为这个链接所指向的一张新图片，同时描述性文字也被替换为这个链接的 title 属性。
+把改进后的 showPic() 函数存入 [showPic.js](https://github.com/Virgil0113/JavaScript-Foundation-Notes/blob/master/JavaScriptDomCode/Demo5/scripts/showPic.js) 文件，然后在浏览器里刷新 gallery.html 就可以看到扩展的功能了。现在点击网页上的某个图片链接时，将可以看到两种效果：“占位符”图片被替换为这个链接所指向的一张新图片，同时描述性文字也被替换为这个链接的 title 属性。
 
 为使图片库更加美观，可添加一个样式表 [layout.css](https://github.com/Virgil0113/JavaScript-Foundation-Notes/blob/master/JavaScriptDomCode/Demo5/styles/layout.css) 文件，并把这个文件存放到 styles 子目录里。然后在 [gallery.html](https://github.com/Virgil0113/JavaScript-Foundation-Notes/blob/master/JavaScriptDomCode/Demo5/gallery.html) 文档的 `<head>`部分用一个 `<link>`标签来引用这个文件。
-
