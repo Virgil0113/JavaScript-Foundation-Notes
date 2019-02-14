@@ -110,3 +110,26 @@ DOM 还提供了一个与之对应的 lastChild 属性，这代表着 childNodes
 
 ​                                     `node.lastChild`
 
+---
+
+### 利用 nodeValue 属性刷新这段描述
+
+回到 showPic 函数，接下来将刷新 id 等于 description 的 `<p>`元素所包含的文本节点的 nodeValue 属性。nodeValue 属性的用途不仅可以用来检索节点的值，还可以用来设置节点的值。当图片库页面上的某个图片链接被点击时，showPic 函数会把这个链接的 title 属性值传递给 text 变量。现在就用 text 变量去刷新 id 值等于 description 的那个 `<p>`元素的第一个节点额 nodeValue 属性值：
+
+​                                     `description.firstChild.nodeValue = text;`
+
+下面是改进 showPic() 函数而添加的三条新语句：
+
+​                                      `var text = whichpic.getAttribute("title");`
+
+​                                      `var description = document.getElementById("description");`
+
+​                                      `description.firstChild.nodeValue = text;`
+
+这三条语句的含义是：
+
+- 当图片库页面上的某个图片链接被点击时，这个链接的 title 属性值将被提取并保存到 text 变量中。
+- 得到 id 是 “description” 的 `<p>`元素，并把它保存到变量 description 里。
+- 把 description 对象的第一个子节点的 nodeValue 属性值设置为变量 text 的值。
+
+把改进后的
