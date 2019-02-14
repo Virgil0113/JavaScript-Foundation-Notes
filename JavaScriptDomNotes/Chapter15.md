@@ -100,3 +100,13 @@
 
 ---
 
+firstChild 和 lastChild 属性
+
+数组元素 childNodes[0] 有个更直观易读的同义词。无论何时何地只需要访问 childNodes 数组的第一个元素，都可以把它写成 firstChild:
+
+​                                     `node.firstChild`
+
+DOM 还提供了一个与之对应的 lastChild 属性，这代表着 childNodes 数组的最后一个元素：
+
+​                                     `node.lastChild`
+
