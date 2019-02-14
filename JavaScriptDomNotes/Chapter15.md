@@ -84,3 +84,19 @@
 
 ---
 
+### nodeValue 属性
+
+如果想改变一个文本节点的值，那就要使用 DOM 提供的 nodeValue 属性，它用来得到和设置一个节点的值：
+
+​                                  `node.nodeValue`
+
+在用 nodeValue 属性获取 description 对象的值时有一点需要注意的是，此时得到的并不是包含在这个段落里的文本。这个调用将返回一个 null 值。 `<p>`元素本身的 nodeValue 属性是一个空值，而我们真正需要的是 `<p>`元素所包含的文本的值。
+
+包含在 `<p>`元素里的文本是另一种节点，它是 `<p>`元素的第一个节点。因此，想要得到的其实是它的第一个节点的 nodeValue 属性值。
+
+​                                   `alert(description.childNodes[0].nodeValue);`
+
+这个调用的返回值才是需要寻找的“Choose an image.”。这个值来自 childNodes 数组的第一个元素。
+
+---
+
