@@ -38,6 +38,8 @@ Process (4/12) Using Book <JavaScript DOM 编程艺术>
 
 ### 第五部分 最佳实践
 
+Chapter16 -- 过去的错误
+
 ### 第六部分 案例研究：图片库改进
 
 ### 第七部分 动态创建标记
