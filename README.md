@@ -7,7 +7,7 @@
 
 ## Part 1 JavaScript DOM 
 
-Process (4/12) Using Book <JavaScript DOM 编程艺术>
+Process (5/12) Using Book <JavaScript DOM 编程艺术>
 
 ### 第一部分 JavaScript 简史
 
@@ -39,6 +39,12 @@ Process (4/12) Using Book <JavaScript DOM 编程艺术>
 ### 第五部分 最佳实践
 
 Chapter16 -- 过去的错误
+
+Chapter17 -- 平稳退化
+
+Chapter18 -- 向 CSS 学习
+
+Chapter19 -- 分离 JavaScript
 
 ### 第六部分 案例研究：图片库改进
 
