@@ -38,13 +38,17 @@ Process (5/12) Using Book <JavaScript DOM 编程艺术>
 
 ### 第五部分 最佳实践
 
-Chapter16 -- 过去的错误
+[Chapter16 -- 过去的错误](JavaScriptDomNotes/Chapter16.md)
 
 Chapter17 -- 平稳退化
 
 Chapter18 -- 向 CSS 学习
 
 Chapter19 -- 分离 JavaScript
+
+Chapter20 -- 向后兼容
+
+Chapter21 -- 性能考虑
 
 ### 第六部分 案例研究：图片库改进
 
