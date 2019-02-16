@@ -40,7 +40,7 @@ Process (5/12) Using Book <JavaScript DOM 编程艺术>
 
 [Chapter16 -- 过去的错误](JavaScriptDomNotes/Chapter16.md)
 
-Chapter17 -- 平稳退化
+[Chapter17 -- 平稳退化](JavaScriptDomNotes/Chapter17.md)
 
 Chapter18 -- 向 CSS 学习
 
