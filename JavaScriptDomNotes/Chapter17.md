@@ -22,3 +22,11 @@
 
 ​                                       `<a href="javascript:popUp('http://www.example.com/');">Eample</a>`
 
+这条语句在支持 “javascript:” 伪协议的浏览器中运行正常，较老的浏览器则会尝试打开那个链接但失败，支持这种伪协议但禁用了 JavaScript 功能的浏览器会什么也不做。所以在 HTML 文档中通过 “javascript:” 伪协议调用 JavaScript 代码的做法非常的不好。
+
+---
+
+### 内嵌的事件处理函数
+
+在第四部分的图片库脚本里我们见识过了[事件处理函数](Chapter14.md)的用途和用法：
+
