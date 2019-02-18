@@ -42,7 +42,7 @@ Process (5/12) Using Book <JavaScript DOM 编程艺术>
 
 [Chapter17 -- 平稳退化](JavaScriptDomNotes/Chapter17.md)
 
-Chapter18 -- 向 CSS 学习
+[Chapter18 -- 向 CSS 学习](JavaScriptDomNotes.Chapter18.md)
 
 Chapter19 -- 分离 JavaScript
 
