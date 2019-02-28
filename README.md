@@ -44,7 +44,7 @@ Process (5/12) Using Book <JavaScript DOM 编程艺术>
 
 [Chapter18 -- 向 CSS 学习](JavaScriptDomNotes.Chapter18.md)
 
-Chapter19 -- 分离 JavaScript
+[Chapter19 -- 分离 JavaScript](JavaScriptDomNotes.Chapter19.md)
 
 Chapter20 -- 向后兼容
 
