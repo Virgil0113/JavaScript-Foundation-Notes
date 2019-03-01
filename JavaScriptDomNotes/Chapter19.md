@@ -6,3 +6,7 @@ JavaScript DOM 编程艺术 Chapter 19  分离 JavaScript
 
 `element.event = action...`
 
+如果想把一个事件添加到某个带有特定 id 属性的元素上，用 getElementById 就可以解决问题：
+
+`getElementById(id).event = action`
+
