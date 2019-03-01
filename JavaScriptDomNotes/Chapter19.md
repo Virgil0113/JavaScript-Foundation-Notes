@@ -10,3 +10,10 @@ JavaScript DOM 编程艺术 Chapter 19  分离 JavaScript
 
 `getElementById(id).event = action`
 
+如果事情涉及多个元素，我们就可以用 getElementByTagName 和 getAttribute 把事件添加到有着特定属性的一组元素上。具体步骤如下：
+
+1. 把文档里的所有链接全放入一个数组里
+2. 遍历数组
+3. 如果某个链接的 class 属性等于 popup，就表示这个链接在被点击时应该调用 popUp() 函数
+
+下面是实现步骤
