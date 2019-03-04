@@ -49,5 +49,13 @@ function prepareLinks() {
 }
 ```
 
+将 popUp 函数也保存到外部的 JavaScript 文件中去：
+
+```js
+function popUp(winURL) {
+    window.open(winURL,"popup","width=320,hright=480");
+}
+```
+
 
 
