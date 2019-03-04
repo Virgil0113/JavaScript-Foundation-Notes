@@ -18,3 +18,17 @@
 
 下面是实现步骤：
 
+```js
+var links = document.getElementsByTagName("a");
+for (var i=0; i<link.length; i++) {
+    if (links[i].getAttribute("class") == "popup") {
+        links[i].onclick = function() {
+            popUp(this.getAttribute("href"));
+            return false;
+        }
+    }
+}
+```
+
+以上代码将把调用 popUp() 函数的 onclick 事件添加到有关的链接上。只要把它们存入一个外部 JavaScript 文件，就等于是把这些操作从 HTML 文档里分离出来了。这就是"分离 JavaScript"的含义。
+
