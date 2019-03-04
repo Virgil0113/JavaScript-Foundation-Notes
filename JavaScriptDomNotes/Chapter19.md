@@ -32,3 +32,22 @@ for (var i=0; i<link.length; i++) {
 
 以上代码将把调用 popUp() 函数的 onclick 事件添加到有关的链接上。只要把它们存入一个外部 JavaScript 文件，就等于是把这些操作从 HTML 文档里分离出来了。这就是"分离 JavaScript"的含义。
 
+另外还有一个问题需要解决，必须让这些代码在 HTML 文档全部加载到浏览器之后马上开始执行。HTML 文档全部加载完毕时将触发一个事件，这个事件有它自己的事件处理函数。将 JavaScript 代码打包在 prepareLinks 函数里，并把这个函数添加到 window 对象的 onload 事件上去。这样一来 DOM 就可以正常工作了：
+
+```js
+window.onload = prepareLinks;
+function prepareLinks() {
+    var links = document.getElementsByTagName("a");
+    for (var i=0; i<link.length; i++) {
+      if (links[i].getAttribute("class") == "popup") {
+        links[i].onclick = function() {
+            popUp(this.getAttribute("href"));
+            return false;
+        }
+      }
+    }
+}
+```
+
+
+
