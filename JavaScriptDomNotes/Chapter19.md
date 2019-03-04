@@ -1,4 +1,4 @@
-JavaScript DOM 编程艺术 Chapter 19  分离 JavaScript
+## JavaScript DOM 编程艺术 Chapter 19  分离 JavaScript
 
 此前章节所见到的 JavaScript 代码都已经与 HTML 文档分离。负责实际完成各项任务的 JavaScript 函数都已经存入外部文件，问题出现在内嵌的事件处理函数中。
 
@@ -16,4 +16,5 @@ JavaScript DOM 编程艺术 Chapter 19  分离 JavaScript
 2. 遍历数组
 3. 如果某个链接的 class 属性等于 popup，就表示这个链接在被点击时应该调用 popUp() 函数
 
-下面是实现步骤
+下面是实现步骤：
+
