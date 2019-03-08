@@ -1,0 +1,1 @@
+## JavaScript DOM 编程艺术 Chapter 20  向后兼容
