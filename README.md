@@ -46,7 +46,7 @@ Process (5/12) Using Book <JavaScript DOM 编程艺术>
 
 [Chapter19 -- 分离 JavaScript](JavaScriptDomNotes.Chapter19.md)
 
-Chapter20 -- 向后兼容
+[Chapter20 -- 向后兼容](JavaScriptDomNotes.Chapter20.md)
 
 Chapter21 -- 性能考虑
 
